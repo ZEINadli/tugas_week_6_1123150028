@@ -33,7 +33,7 @@ class Splash1 extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     ),
                   ),
-                  SizedBox(height: 10,),
+                  // SizedBox(height: 5,),
                   Text("Aplikasi ini di buat untuk mengerjakan tugas week 6",
                   style: TextStyle(
                     fontSize: 15,
@@ -41,12 +41,36 @@ class Splash1 extends StatelessWidget {
                     color: Colors.green
                     ),
                   ),
+                  SizedBox(height: 50,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('1'),
-                      Text('1'),
-                      Text('1'),
+                      Container(
+                        width: 10,
+                        height: 10,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.green,
+                        ),
+                      ),
+                      SizedBox(width: 5,),
+                      Container(
+                        width: 10,
+                        height: 10,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.grey,
+                        ),
+                      ),
+                      SizedBox(width: 5,),
+                      Container(
+                        width: 10,
+                        height: 10,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.grey,
+                        ),
+                      ),
                     ],
                   )
                 ],
