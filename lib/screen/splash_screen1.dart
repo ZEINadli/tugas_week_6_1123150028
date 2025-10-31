@@ -7,15 +7,20 @@ class Splash1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
             appBar: AppBar(
-              title: const Text("Dashboard"),
               actions: const [],
             ),
-            body: SingleChildScrollView(
-              child: Container(
-                padding: const EdgeInsets.all(20.0),
-                child: const Column(
-                  children: [],
-                ),
+            body: Center(
+              child: Column(
+                children: [
+                  Container(
+                    height: 250,
+                    width: 250,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.green
+                    ),
+                  )
+                ],
               ),
             ),
           );
