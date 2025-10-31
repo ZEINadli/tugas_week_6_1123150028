@@ -25,6 +25,13 @@ class Splash1 extends StatelessWidget {
                         fit: BoxFit.cover,
                         ),
                     ),
+                  ),
+                  SizedBox(height: 20,),
+                  Text("Welcome",
+                  style: TextStyle(
+                    fontSize: 50,
+                    fontWeight: FontWeight.bold,
+                    ),
                   )
                 ],
               ),
