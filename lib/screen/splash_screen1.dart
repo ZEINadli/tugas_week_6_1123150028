@@ -12,6 +12,7 @@ class Splash1 extends StatelessWidget {
             body: Center(
               child: Column(
                 children: [
+                  SizedBox(height: 50,),
                   Container(
                     height: 250,
                     width: 250,
