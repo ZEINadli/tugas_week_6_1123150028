@@ -41,6 +41,14 @@ class Splash1 extends StatelessWidget {
                     color: Colors.green
                     ),
                   ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('1'),
+                      Text('1'),
+                      Text('1'),
+                    ],
+                  )
                 ],
               ),
             ),
