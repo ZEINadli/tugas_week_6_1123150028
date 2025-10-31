@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas_week_6_1123150028/screen/splash_screen3.dart';
 
 class Splash2 extends StatelessWidget {
   const Splash2({super.key});
@@ -22,7 +23,7 @@ class Splash2 extends StatelessWidget {
                       color: Colors.green,
                       image: DecorationImage(
                         image: 
-                        AssetImage("assets/images/195525.jpg"),
+                        AssetImage("assets/images/images.jpeg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -34,12 +35,13 @@ class Splash2 extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     ),
                   ),
-                  // SizedBox(height: 5,),
-                  Text("Aplikasi ini di buat untuk mengerjakan tugas week 6",
+                  Text("MataKuliah Aplikasi Mobile\n Mantapnyooooooooooooooooooooooooooooo",
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.bold,
-                    color: Colors.green
+                    color: Colors.green,
+                    
                     ),
                   ),
                   SizedBox(height: 50,),
@@ -51,7 +53,7 @@ class Splash2 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.green,
+                          color: Colors.grey,
                         ),
                       ),
                       SizedBox(width: 5,),
@@ -60,7 +62,7 @@ class Splash2 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.grey,
+                          color: Colors.green,
                         ),
                       ),
                       SizedBox(width: 5,),
@@ -80,8 +82,8 @@ class Splash2 extends StatelessWidget {
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Navigator.push(context, 
-                        // MaterialPageRoute(builder: (context) => Splash()));
+                        Navigator.push(context, 
+                        MaterialPageRoute(builder: (context) => Splash3()));
                       }, 
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.green, 
