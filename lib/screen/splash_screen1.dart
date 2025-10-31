@@ -32,7 +32,15 @@ class Splash1 extends StatelessWidget {
                     fontSize: 50,
                     fontWeight: FontWeight.bold,
                     ),
-                  )
+                  ),
+                  SizedBox(height: 10,),
+                  Text("Aplikasi ini di buat untuk mengerjakan tugas week 6",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.green
+                    ),
+                  ),
                 ],
               ),
             ),
