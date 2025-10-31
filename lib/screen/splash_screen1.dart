@@ -18,7 +18,12 @@ class Splash1 extends StatelessWidget {
                     width: 250,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.green
+                      color: Colors.green,
+                      image: DecorationImage(
+                        image: 
+                        AssetImage("assets/images/195525.jpg"),
+                        fit: BoxFit.cover,
+                        ),
                     ),
                   )
                 ],
