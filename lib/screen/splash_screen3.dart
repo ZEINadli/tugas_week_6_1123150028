@@ -6,6 +6,9 @@ class Splash3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        actions: [],
+      ),
             body: Center(
               child: Column(
                 children: [
@@ -32,7 +35,8 @@ class Splash3 extends StatelessWidget {
                     ),
                   ),
                   // SizedBox(height: 5,),
-                  Text("Aplikasi ini di buat untuk mengerjakan tugas week 6",
+                  Text("Ayo Coba sekarang \n Teknologi & Bisnis Bina Sarana Global",
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.bold,
@@ -48,25 +52,25 @@ class Splash3 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
+                          color: Colors.grey,
+                        ),
+                      ),
+                      SizedBox(width: 5,),
+                      Container(
+                        width: 10,
+                        height: 10,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.grey,
+                        ),
+                      ),
+                      SizedBox(width: 5,),
+                      Container(
+                        width: 10,
+                        height: 10,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
                           color: Colors.green,
-                        ),
-                      ),
-                      SizedBox(width: 5,),
-                      Container(
-                        width: 10,
-                        height: 10,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.grey,
-                        ),
-                      ),
-                      SizedBox(width: 5,),
-                      Container(
-                        width: 10,
-                        height: 10,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.grey,
                         ),
                       ),
                     ],
@@ -83,7 +87,7 @@ class Splash3 extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.green, 
                         ),
-                        child: Text('Continue', 
+                        child: Text('Get Started', 
                           style: TextStyle(
                             color: Colors.white
                           ),
