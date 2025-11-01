@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas_week_6_1123150028/screen/login.dart';
 
 class Splash3 extends StatelessWidget {
   const Splash3({super.key});
@@ -22,7 +23,7 @@ class Splash3 extends StatelessWidget {
                       color: Colors.green,
                       image: DecorationImage(
                         image: 
-                        AssetImage("assets/images/195525.jpg"),
+                        AssetImage('assets/images/tydctct.jpg'),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -81,8 +82,11 @@ class Splash3 extends StatelessWidget {
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Navigator.push(context, 
-                        // MaterialPageRoute(builder: (context) => Splash()));
+                        Navigator.pushAndRemoveUntil(
+                          context,
+                          MaterialPageRoute(builder: (context) => Login()),
+                          (Route<dynamic> route) => false,
+                        );
                       }, 
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.green, 
