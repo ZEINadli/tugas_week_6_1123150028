@@ -36,7 +36,13 @@ class Login extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 35,),
-              
+              TextField(
+                keyboardType: TextInputType.emailAddress,
+                decoration: InputDecoration(
+                  labelText: 'Email',
+                  hintText: 'Masukan Email Anda',
+                )
+              )
             ],
           ),
         ),
