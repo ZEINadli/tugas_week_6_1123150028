@@ -6,16 +6,25 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            body: Center(
-              child: Column(
-                children: [
-                  Container(
-                    height: 20,
-                    width: 20,
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            children: [
+              Container(
+                width: 70,
+                height: 70,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage(
+                      "assets/images/profile.png"
+                    ),
                   )
-                ],
-              ),
-            ),
-          );
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }

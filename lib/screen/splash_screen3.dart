@@ -23,7 +23,7 @@ class Splash3 extends StatelessWidget {
                       color: Colors.green,
                       image: DecorationImage(
                         image: 
-                        AssetImage('assets/images/tydctct.jpg'),
+                        AssetImage('assets/images/HD-wallpaper-green-lantern-arts-green-lantern-artist-artwork-digital-art-deviantart.jpg'),
                         fit: BoxFit.cover,
                         ),
                     ),
