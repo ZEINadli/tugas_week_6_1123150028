@@ -95,9 +95,31 @@ class Login extends StatelessWidget {
                 alignment: Alignment.centerRight,
                 child: TextButton(
                     onPressed: () {}, 
-                    child: Text('Lupa Password', 
+                    child: Text('Lupa Password?', 
                     style: TextStyle(
                       color: Colors.green
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 10,),
+              Container(
+                child: SizedBox(
+                  height: 40,
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => Login()));
+                        
+                    }, 
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.green,
+                    ),
+                    child: Text('Login',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold
+                    ),
                     ),
                   ),
                 ),
