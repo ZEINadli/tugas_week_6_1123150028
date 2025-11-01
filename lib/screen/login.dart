@@ -41,6 +41,7 @@ class Login extends StatelessWidget {
                 decoration: InputDecoration(
                   labelText: 'Email',
                   hintText: 'Masukan Email Anda',
+                  prefixIcon: Icon(Icons.email),
                 )
               )
             ],
