@@ -42,6 +42,9 @@ class Login extends StatelessWidget {
                   labelText: 'Email',
                   hintText: 'Masukan Email Anda',
                   prefixIcon: Icon(Icons.email),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  )
                 )
               )
             ],
