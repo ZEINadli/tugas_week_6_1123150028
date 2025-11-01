@@ -41,7 +41,10 @@ class Login extends StatelessWidget {
                 decoration: InputDecoration(
                   labelText: 'Email',
                   hintText: 'Masukan Email Anda',
-                  prefixIcon: Icon(Icons.email),
+                  prefixIcon: Icon(
+                    Icons.email,
+                    color: Colors.green,
+                  ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -51,10 +54,42 @@ class Login extends StatelessWidget {
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(
+                      color: Colors.green,
+                      width: 2
+                    ),
                   ),
                 )
-              )
+              ),
+              SizedBox(height: 20,),
+              TextField(
+                keyboardType: TextInputType.text,
+                obscureText: true,
+                decoration: InputDecoration(
+                  labelText: 'Password',
+                  hintText: 'Masukan Password Anda',
+                  prefixIcon: Icon(
+                    Icons.password,
+                    color: Colors.green,),
+                  suffix: Icon(
+                    Icons.remove_red_eye_outlined,
+                    color: Colors.green,),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                    borderSide: BorderSide(color: Colors.green),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                    borderSide: BorderSide(
+                      color: Colors.green,
+                      width: 2
+                    ),
+                  ),
+                )
+              ),
             ],
           ),
         ),
