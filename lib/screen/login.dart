@@ -10,6 +10,7 @@ class Login extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
+              SizedBox(height: 50,),
               Container(
                 width: 70,
                 height: 70,
@@ -20,7 +21,22 @@ class Login extends StatelessWidget {
                     ),
                   )
                 ),
-              )
+              ),
+              SizedBox(height: 20,),
+              Text("Selamat Datang", 
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+                color: Colors.green
+              ),
+              ),
+              Text("Silahkan login untuk melanjutkan",
+              style: TextStyle(
+                  color: Colors.grey.shade700        
+                ),
+              ),
+              SizedBox(height: 35,),
+              
             ],
           ),
         ),
